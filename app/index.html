@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>رمضان مكمّل — نزّل التطبيق</title>
+<meta name="description" content="رمضان يبدأ، وإنت تكمّل. رفيقك من شعبان لحد بعد العيد: مصحف وتلاوة، أذكار بالصوت، قصص الأنبياء، ودايرة صحابك. ببلاش ومن غير حساب.">
+<meta property="og:title" content="رمضان مكمّل">
+<meta property="og:description" content="رمضان يبدأ، وإنت تكمّل. ببلاش على أندرويد وآيفون.">
+<meta property="og:image" content="https://mohamedmagdy97.github.io/ramadan-privacy/app/share.jpg">
+<meta property="og:url" content="https://mohamedmagdy97.github.io/ramadan-privacy/app/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F3E6D3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1B2D" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  @font-face { font-family: "Aref Ruqaa"; src: url("aref-ruqaa.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+  :root {
+    --bg:#F3E6D3; --surface:#FBF4EA; --text:#3B2A20; --muted:#5C4636;
+    --accent:#E07A2E; --accent-text:#A4501A; --on-accent:#FFFFFF; --divider:#E2CDB0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#0F1B2D; --surface:#1A2A42; --text:#F4EDE1; --muted:#B9C2D0;
+      --accent:#D9A441; --accent-text:#D9A441; --on-accent:#0F1B2D; --divider:#2C4061;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:17px/1.8 system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif; }
+  main { max-width:440px; margin:0 auto; padding:40px 16px 32px; text-align:center; }
+  .logo { width:112px; height:112px; border-radius:26px; display:block; margin:0 auto 16px; }
+  h1 { font-family:"Aref Ruqaa", serif; font-size:44px; line-height:1.3; margin:0; }
+  .tag { margin:4px 0 28px; color:var(--muted); font-size:19px; }
+  .stores { display:flex; flex-direction:column; gap:12px; }
+  .btn { display:flex; align-items:center; justify-content:center; gap:10px; min-height:56px;
+         border-radius:22px; text-decoration:none; font-weight:700; font-size:18px;
+         border:2px solid var(--accent); color:var(--accent-text); background:transparent; }
+  .btn.primary { background:var(--accent); color:var(--on-accent); }
+  .btn svg { width:24px; height:24px; flex:none; }
+  ul { list-style:none; padding:0; margin:32px 0 0; text-align:start;
+       background:var(--surface); border:1px solid var(--divider); border-radius:24px; }
+  li { padding:12px 18px; border-bottom:1px solid var(--divider); }
+  li:last-child { border-bottom:0; }
+  li b { color:var(--accent-text); }
+  .promise { margin:24px 0 0; color:var(--muted); font-size:15px; }
+  footer { margin-top:28px; font-size:14px; color:var(--muted); }
+  footer a { color:var(--accent-text); }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="icon.png" alt="أيقونة رمضان مكمّل" width="112" height="112">
+  <h1>رمضان مكمّل</h1>
+  <p class="tag">رمضان يبدأ، وإنت تكمّل</p>
+
+  <div class="stores">
+    <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=com.megtech.ramadanmkaml">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8.9.6l16.4-9.4a.7.7 0 0 0 0-1.2L4.9 2c-.4-.2-.9.1-.9.6z"/></svg>
+      نزّله من Google Play
+    </a>
+    <a class="btn" id="ios" href="https://apps.apple.com/app/id6832929325">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.8-1.1-2.9-4.3zM13.9 5.2c.7-.8 1.2-2 1-3.2-1 0-2.2.7-3 1.5-.6.7-1.2 1.9-1 3.1 1.1.1 2.3-.6 3-1.4z"/></svg>
+      نزّله من App Store
+    </a>
+  </div>
+
+  <ul>
+    <li><b>من شعبان لبعد العيد:</b> كل موسم بخطوته، والتطبيق بيتحوّل لليل لوحده عند المغرب.</li>
+    <li><b>المصحف والتلاوة:</b> صفحات، تجويد ملوّن، تلاوة تكمّل والشاشة مقفولة، ومؤقت نوم.</li>
+    <li><b>الأذكار بالصوت:</b> «اسمع الكل» وإنت في الطريق.</li>
+    <li><b>قصص الأنبياء وسير الصحابة:</b> بالصوت ومشاهد متحركة، للكبار والصغيرين.</li>
+    <li><b>دايرة صحابك:</b> ختمة مع بعض وتشجيع، من غير أرقام ولا مقارنة.</li>
+    <li><b>العهد:</b> جواب لنفسك يتقفل لحد ليلة العيد.</li>
+  </ul>
+
+  <p class="promise">ببلاش، من غير حساب ومن غير إعلانات. عبادتك بينك وبين ربنا: بياناتك على موبايلك.</p>
+
+  <footer>
+    <a href="../">سياسة الخصوصية</a> · MegTech
+  </footer>
+</main>
+<script>
+  // The button for this phone comes first and filled; nothing is tracked.
+  (function () {
+    var ua = navigator.userAgent || "";
+    var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && "ontouchend" in document);
+    var mine = document.getElementById(ios ? "ios" : "play");
+    mine.classList.add("primary");
+    mine.parentNode.insertBefore(mine, mine.parentNode.firstChild);
+  })();
+</script>
+</body>
+</html>
