@@ -20,6 +20,10 @@
   th { color:var(--muted); font-weight:600; }
   a { color:var(--accent); }
   .ltr { direction:ltr; unicode-bidi:embed; }
+  /* MegTech (its brand guide: logo ≥ 120 px wide, clear space = one leg). */
+  .maker { display:flex; align-items:center; justify-content:center; gap:12px; margin:32px auto 40px;
+           color:var(--muted); font-size:14px; }
+  .maker img { display:block; width:160px; height:auto; }
 </style>
 </head>
 <body>
@@ -79,5 +83,12 @@
   <p>MegTech — محمد مجدي<br>
   الإيميل: <a class="ltr" href="mailto:mohammedmagdy823@gmail.com">mohammedmagdy823@gmail.com</a></p>
 </main>
+  <div class="maker">
+    <span>من</span>
+    <picture>
+      <source srcset="app/megtech_on_dark.svg" media="(prefers-color-scheme: dark)">
+      <img src="app/megtech_on_light.svg" alt="MegTech" width="160" height="34">
+    </picture>
+  </div>
 </body>
 </html>
